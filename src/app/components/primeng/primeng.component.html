@@ -1,0 +1,9 @@
+<div>
+    <p-dataTable [value]="employees" selectionMode="single" [(selection)]="selectedEmployee" (onRowSelect)="onRowSelect($event)" [paginator]="true" [rows]="10" [responsive]="true">
+        <p-header>List of Globers</p-header>
+        <p-footer>There are {{employees.length}} Globers</p-footer>
+        <p-column field="name" header="name" [sortable]="true"></p-column>
+        <p-column field="empId" header="empId" [sortable]="true"></p-column>
+        <p-column field="city" header="city" [sortable]="true"></p-column>
+    </p-dataTable>
+</div>

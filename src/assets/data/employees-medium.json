@@ -1,0 +1,8 @@
+{
+    "data":[
+        {"name":"Ashwin","empId":"433","city":"Pune"},
+         {"name":"Aashish","empId":"500","city":"Delhi"},
+        {"name":"Pragati","empId":"111","city":"New York"},
+       {"name":"Manohar","empId":"786","city":"Mumbai"}
+    ]
+}
